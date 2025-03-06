@@ -27,6 +27,8 @@ public class AreaOfCircle{
         // Ex : ((float)7/2 = 3.5) with typecast
 
         area = PI * radius * radius;
+        //Or
+        // area = PI * Math.pow(radius,2);
         System.out.println("Area of circle is " + String.format("%.2f",area));
         // String.format("%.2f",area) -> Gives answer in two decimal points
         
