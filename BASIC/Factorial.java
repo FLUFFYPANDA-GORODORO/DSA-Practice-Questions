@@ -1,3 +1,10 @@
+// Q.Write Program to find the factorial of a number 
+// a)Without Recursion 
+// b)With Recursion
+
+// Test Cases : 
+// Input : 5  Output : 120
+// Input : 6  Output : 720
 
 import java.util.Scanner;
 
