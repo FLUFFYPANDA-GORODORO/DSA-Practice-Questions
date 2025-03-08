@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class Practice6 {
+public class GCD {
 
 
     public static void main(String[] args) {
@@ -38,3 +38,9 @@ public class Practice6 {
         return gcd(a,b-a);
     }
 }
+
+// #Output
+// Enter first number : 20
+// Enter second number : 28
+// GCD of 20 & 28 is 4
+
