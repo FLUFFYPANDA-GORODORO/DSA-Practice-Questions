@@ -3,7 +3,7 @@
 //Output : All possible prime numbers within this range
 //Test Cases :
 //Input : 1-10  Output 2 3 5 7
-//Input : 1-100  Output 2 3 5 7 ......89 97
+//Input : 1-100  Output 2 3 5 7 11 ......89 97
 
 
 import java.util.Scanner;
