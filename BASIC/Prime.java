@@ -29,15 +29,9 @@ public class Prime {
     }
 
     public static boolean isPrime(int num){
-        if(num < 0){
-            return false;
-        }
-
-        if(num == 0)
-            return false;
-
-        if(num == 1)
-            return false;
+        
+        if(num < 2){
+            retiurn false;
 
         int i , flag = 1;
 
@@ -54,6 +48,17 @@ public class Prime {
     }
 }
 
+// if(num < 0){
+//     return false;
+// }
+
+// if(num == 0)
+//     return false;
+
+// if(num == 1)
+//     return false;
+
+    
 // #Output
 // Enter starting number of range : 1
 // Enter ending number of range : 10
