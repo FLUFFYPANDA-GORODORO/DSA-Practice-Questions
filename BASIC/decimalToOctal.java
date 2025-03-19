@@ -20,7 +20,7 @@
 
 import java.util.Scanner;
 
-public class Practice6 {
+public class decimalToOctal{
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -30,11 +30,11 @@ public class Practice6 {
         System.out.print("Enter the decimal number : ");
         decimal = sc.nextInt();
 
-        decimalToBinary(decimal);
+        decimalToOctal(decimal);
 
     }
 
-    public static void decimalToBinary(int num){
+    public static void decimalToOctal(int num){
         int[] arr = new int[32];
         int i = 0;
         int temp = num;
