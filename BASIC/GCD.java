@@ -37,6 +37,13 @@ public class GCD {
 
         return gcd(a,b-a);
     }
+
+    
+    public static int legendsGcd(int a , int b){
+        if(a == 0)
+            return b;
+        return gcd(b % a , a);
+    }
 }
 
 // #Output
